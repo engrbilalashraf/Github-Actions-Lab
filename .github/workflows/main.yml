@@ -1,0 +1,11 @@
+name: Day 1 Github Actions Lab
+on: [push]
+
+jobs:
+  my-first-job:
+
+  runs-on: ubuntu-latest
+
+  steps:
+  - name: print a greeting message
+    run: echo "Hello, GitHub Actions! Ma seekh raha hn."
